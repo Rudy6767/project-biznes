@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Zdrowe Menu dla szkoły</title>
+    <style>
+        .kolorowy-link {
+            border: 1.5px solid #1ce4af;
+            /* Zielona ramka */
+            padding: 10px;
+            margin: 5px;;
+            text-decoration: none;
+            color: #fff7f7;
+            background-color: #1ce4af;
+            /* Opcjonalne tło */
+            border-radius: 5px;
+            min-width: 200px;
+            text-align: center;
+            /* Zaokrąglenie (działało w nowszych przeglądarkach dla HTML4) */
+        }
+
+        .kolorowy-link:hover {
+            border-color: rgb(255, 8, 0);
+            background-color: rgb(255, 8, 0);
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            display: flex;
+            flex-direction: column;
+            padding: 100px;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Animowane tło */
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.85);
+            padding: 40px;
+            border-radius: 20px;
+            width: 420px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 0;
+            background: linear-gradient(90deg, #ff758c, #667eea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        nav {
+            margin: 25px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            transform: scale(1.05);
+        }
+
+        section {
+            margin-top: 25px;
+            padding: 15px;
+            border-radius: 12px;
+        }
+
+        #onas {
+            background: linear-gradient(135deg, #84fab0, #8fd3f4);
+        }
+
+        #kontakt {
+            background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #ff758c, #ff7eb3);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu sezonowe na zime</h1>
+    
+    
+    <a href="two.one.html"><img src="5.webp"width="300px" height="300px"></a>
+    <h2>Przystawka: Sałatka z pieczonym burakiem i kozim serem</h2>
+    <a href="two.two.html"><img src="7.webp"width="300px" height="300px"></a>
+    <h2>Zupa: Barszcz czerwony z uszkami</h2>
+    <a href="two.three.html"><img src="8.webp"width="300px" height="300px"></a>
+    <h2>Danie główne: Gulasz wołowy z kaszą gryczaną i kiszoną kapustą</h2>
+    <a href="two.four.html"><img src="9.jpg"width="300px" height="300px"></a>
+    <h2>Dodatek: Pieczone warzywa korzeniowe (marchew, pietruszka, seler)</h2>
+    <a href="two.five.html"><img src="10.webp"width="300px" height="300px"></a>
+    <h2>Deser: Pieczone jabłka z cynamonem i orzechami</h2>
+</body>
+</html>
